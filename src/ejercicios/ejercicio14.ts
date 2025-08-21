@@ -3,5 +3,5 @@
 // para tratarla como un string. Usa la propiedad “.length” en esta variable. 15. Genéricos (básico)let randomValue: any = 12345;
 
 let randomValue: any = 12345;
-let valueAsString = randomValue as unknown as string; // forzamos a string
-console.log("Longitud del valor:", valueAsString.length); // 5
+let valueAsString = randomValue as unknown as string; 
+console.log("Longitud del valor:", valueAsString.length); 
